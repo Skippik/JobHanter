@@ -1,9 +1,19 @@
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
     color: #111238;
 }
 
+.header {
+    background: #F2F3F6;
+    margin-bottom: 70px;
+}
 
 .links__header a:not(:last-child){
     margin-right: 20px;
@@ -38,7 +48,7 @@ body {
     color: #1A75E8;
 }
 
-.registration {
+.button_primary {
     text-decoration: none;
     background: #1A75E8;
     border-radius: 5px;
@@ -46,11 +56,137 @@ body {
     color: white;
 }
 
-.registration:hover {
+.button_primary:hover {
     background: #F2F3F6;
     color: #111238;
+    transition: background 0.5s, color 0.5s;
 }
 
 .hero {
-    
+    margin-top: 75px;
 }
+
+.hero__title {
+    margin-top: 118px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    color: #111238;
+    margin-bottom: 15px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    line-height: 140%;
+    color: #111238;
+    margin-bottom: 30px;
+}
+
+.hero__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 447px;
+    height: 70px;
+    left: 147px;
+    top: 437px;
+    background: #FFFFFF;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.hero__img {
+    margin-bottom: 57px;
+}
+
+.search {
+    background-color: #fff;
+    border:none
+}
+
+.button_search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    width: 211px;
+    height: 49px;
+    right: 856px;
+    top: 448px;
+    background: #1A75E8;
+    border-radius: 5px;
+    border: none;
+}
+
+.button_search svg {
+    padding-right: 10px;
+    fill: white;
+}
+
+
+.button_search:hover .search-icons {
+    fill: #111;
+    transition: fill 0.2s;
+}
+
+.example_hero {
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B2B2B2;
+}
+
+.example img {
+    padding-right: 10px;
+}
+
+.categories__main {
+    height: 347px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.categories {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111238;
+    margin-bottom: 40px;
+}
+
+.catecories__button {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F3F6;
+    border-radius: 10px;
+    width: 166px;
+    height: 128px;
+}
+
+.card:not(:last-child) {
+    margin-right: 40px;
+}
+
+.icon{
+    color: #111238;
+}
+
+.card:hover {
+    background: #1A75E8;
+    transition: background 0.5s, color 0.5s;
+}
+
+.card:hover .icon {
+    fill: white;
+    transition: fill 0.5s;
+}
+
