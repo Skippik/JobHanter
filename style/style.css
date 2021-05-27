@@ -359,3 +359,60 @@ body {
     fill: #111;
     transition: fill 0.2s;
 } 
+
+footer {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.logo_footer {
+    margin-bottom: 20px;
+}
+
+.description_footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #B2B2B2;
+}
+
+.year {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #B2B2B2;
+}
+
+.title_footer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #111238;
+    margin-bottom: 15px;
+}
+
+.phone_footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.email_footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.info_footer span {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
