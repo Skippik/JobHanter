@@ -147,7 +147,6 @@ body {
 .categories__main {
     height: 347px;
     margin-top: 70px;
-    margin-bottom: 80px;
 }
 
 .categories {
@@ -190,3 +189,96 @@ body {
     transition: fill 0.5s;
 }
 
+.vacancies__block {
+    margin-bottom: 20px;
+}
+
+.vacancies__main {
+    margin-bottom: 90px;
+}
+
+.vacancies__main h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111238;
+    margin-bottom: 40px;
+}
+
+.vacancies__card {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border: 1px solid #C5C9D5;
+    border-radius: 10px;
+}
+
+.profession-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 46px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.profession-name span {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #111238;
+    opacity: 0.8;
+}
+
+.price {
+    width: 113px;
+    height: 39px;
+    left: 369px;
+    top: 60px;
+    background: #1A75E8;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: 62px;
+}
+
+.price:hover {
+    background: #F2F3F6;
+    color: #111238;
+    transition: background 0.5s, color 0.5s;
+}
+
+.requirements {
+    display: flex;
+    align-items: center;
+}
+
+.requirements span {
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B2B2B2;
+}
+
+.requirements img {
+    padding-right: 10px;
+}
+
+.details {
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.details:hover {
+    color: black;
+    transition: color 0.5s, color 0.5s;
+}
