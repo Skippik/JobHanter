@@ -282,3 +282,80 @@ body {
     color: black;
     transition: color 0.5s, color 0.5s;
 }
+
+.mailing {
+    height: 446px;
+    background: #F2F3F6;
+}
+
+.mailink_title {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #111238;
+}
+
+.mailing_subtitle {
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #111238;
+}
+
+.subscribe__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 70px;
+    left: 147px;
+    top: 437px;
+    background: #FFFFFF;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+
+.button_subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    width: 181px;
+    height: 49px;
+    right: 513px;
+    top: 448px;
+    background: #1A75E8;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe {
+    background-color: #fff;
+    border:none
+}
+
+
+.button_subscribe svg {
+    padding-right: 10px;
+    fill: white;
+}
+
+.button_subscribe:hover .subscribe-icons { 
+    fill: #111;
+    transition: fill 0.2s;
+} 
