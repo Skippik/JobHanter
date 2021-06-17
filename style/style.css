@@ -174,13 +174,11 @@ body {
     align-items: center;
     background: #F2F3F6;
     border-radius: 10px;
-    width: 166px;
-    height: 128px;
-}
-
-.card:not(:last-child) {
+    min-width: 166px;
+    min-height: 128px;
     margin-right: 40px;
 }
+
 
 .icon{
     color: #111238;
@@ -531,4 +529,98 @@ footer {
         margin: 0 auto;
         margin-bottom: 36px;
     }
+
+    .categories__main {
+        max-height: 1080px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .categories {
+        text-align: center;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .catecories__button {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        position: relative;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .vacancies__main {
+        margin-top: 800px;
+    }
+
+    .vacancies__main h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .vacancies__block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vacancies__card {
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        height: 441px;
+        padding: 30px 30px 30px 30px;
+        width: 290px;
+        height: 441px;
+        border: 1px solid #C5C9D5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .logo-company {
+        margin-bottom: 30px;
+    }
+
+    .profession-name {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .sity {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .price {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .requirements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .requirements__block {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .details {
+        margin: 0 auto;
+    }
+
+
 }
