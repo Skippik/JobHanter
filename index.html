@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row py-4">
+            <div class="row py-4 menu">
                 <div class="col-2">
                     <img src="./img/logo.png" alt="JobHanter" class="logo">
                 </div>
@@ -23,10 +23,13 @@
                     <a href="#" class="menu__link">Вакансии</a>
                     <a href="#" class="menu__link">Компании</a>
                 </div>
-                <div class="col-3 button__header">
+                <div class="col-md-3 button__header">
                     <a href="#" class="entrance">Войти</a>
                     <a href="#" class="registration button_primary">Регистрация</a>
                 </div>
+                <button class="menu__button">
+                    <img src="./img/menu-burger.jpg" alt="menu" class="menu__button-img">
+                </button>
             </div>
             <div class="row hero">
                 <div class=" col-sm-12 col-md-5">
@@ -48,9 +51,11 @@
                     </div>
                     <div class="example">
                         <span class="example_hero">Например:</span>
-                        <img src="./img/front-end.png" alt="" class="front-end">
-                        <img src="./img/back-end.png" alt="" class="back-end">
-                        <img src="./img/designer.png" alt="" class="designer">
+                        <div class="example_img">
+                            <img src="./img/front-end.png" alt="" class="front-end">
+                            <img src="./img/back-end.png" alt="" class="back-end">
+                            <img src="./img/designer.png" alt="" class="designer">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 offset-1 col-0">
@@ -234,6 +239,8 @@
             </div>
         </div>
     </footer>
+    <div class="burger__menu">
+    </div>
 </body>
 </html> 
 
