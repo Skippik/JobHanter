@@ -622,5 +622,109 @@ footer {
         margin: 0 auto;
     }
 
+    .mailink_title {
+        font-style: normal;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 19px;
+    }
+
+    .mailing_subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .subscribe__main {
+        height: 70px;
+        width: 290px;
+        padding: 0;
+    }
+    .button_subscribe {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #1A75E8;
+        border-radius: 5px;
+        width: 75px;
+        height: 43.75px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .button_subscribe span {
+        display: none;
+    }
+
+    .button_subscribe svg {
+        padding: 0;
+    }
+
+    .footer__logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__jobs span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .logo_footer {
+        margin-bottom: 20px;
+    }
+
+    .description_footer {
+        margin-bottom: 10px;
+    }
+
+    .year {
+        margin-bottom: 30px;
+    }
+
+    .info_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .contacts__footer {
+        margin-bottom: 40px;
+    }
+
+    .title_footer{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+
+    .info_footer-subtitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email_footer {
+        margin-bottom: 50px;
+    }
 
 }
+
+
+
+
